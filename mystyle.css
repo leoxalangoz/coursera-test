@@ -1,0 +1,37 @@
+/********** Base styles **********/
+h1 {
+  
+  }
+
+p {
+  
+  }
+
+#p1 {
+  
+  }
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) 
+{
+  #p1 {
+      }
+
+  #p2 {
+      }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) 
+{
+  #p1 {
+      }
+
+  #p2 {
+      }
+
+  body {
+     }
+}

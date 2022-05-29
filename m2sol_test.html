@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Positioning Elements</title>
+
+<style>
+* {box-sizing: border-box;}
+
+h1 {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+div#container {
+  position: relative;
+  top: 100px;
+  background-color: darkcyan;
+}
+
+p {
+  position: absolute;
+  width: 30%;
+  height: 100px;
+  top: 10px;
+  background-color: grey;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#p1 {
+left: 10px;
+  }
+
+#p2 {
+left: 35%;
+  }
+
+#p3 {
+ right: 10px; 
+  }
+
+
+</style>
+</head>
+
+
+<body>
+<h1>Our Menu</h1>
+
+<div id="container">
+  <p id="p1">one</p>
+  <p id="p2">two</p>
+  <p id="p3">thre</p>
+</div>
+
+</body>
+</html>
